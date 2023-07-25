@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        images: chani17/hostservice:1.0
+        images: chani17/hostservice:${{ github.sha }}
         resources:
           limits:
             memory: "128Mi"
