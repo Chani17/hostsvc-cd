@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: chani17/hostservice:8a307987a34816dbaf51476f327a60865fe97698
+        image: chani17/hostservice:df4a69ed410734b3f0e40244b74ed3020c35edc5
         resources:
           limits:
             memory: "128Mi"
